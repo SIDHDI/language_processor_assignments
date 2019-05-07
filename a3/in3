@@ -1,0 +1,10 @@
+int foo(int a){
+l1:
+goto l1;
+goto l2;
+}
+main(){
+goto l1;
+goto l2;
+l2:
+}$ 
